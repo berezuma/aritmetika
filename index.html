@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oinarrizko Aritmetika Ikasten</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Oinarrizko Aritmetika Ikasten</h1>
+        <div class="score">Puntuazioa: <span id="score">0</span></div>
+        <div class="operators">
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">/</button>
+        </div>
+        <div class="exercise">
+            <div class="problem">
+                <p id="problem">2 + 3</p>
+                <input type="number" id="answer" placeholder="Zure erantzuna hemen">
+            </div>
+            <div class="buttons">
+                <button id="check">Egiaztatu</button>
+                <button id="showAnswer">Erantzuna Erakutsi</button>
+            </div>
+            <p id="feedback"></p>
+            <button id="next">Hurrengo Ariketa</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
