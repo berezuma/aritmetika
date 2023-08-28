@@ -59,7 +59,7 @@ function checkAnswer() {
             setTimeout(() => {
                 feedbackElement.textContent = '';
                 nextExercise();
-            }, 500);
+            }, 1000);
         } else {
             feedbackElement.textContent = 'Erantzun okerra.';
             feedbackElement.style.color = '#e74c3c';
