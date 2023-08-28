@@ -61,7 +61,7 @@ function checkAnswer() {
                 nextExercise();
             }, 500);
         } else {
-            feedbackElement.textContent = 'Erantzun okerra. Saiatu berriro.';
+            feedbackElement.textContent = 'Erantzun okerra.';
             feedbackElement.style.color = '#e74c3c';
             score = Math.max(0, score - 5);
         }
